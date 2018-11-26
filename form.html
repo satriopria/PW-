@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<title>Struktur Organisasi UNEJ</title>
+
+	<link rel="stylesheet" href="css.css">
+	<script src="js form.js"></script>
+
+</head>
+<body>
+	<div class="header">
+		<img src="bahan/logo-unej-baku.png">
+		<h1>Universitas <br> Jember</h1>
+		<div class="head-kanan">
+			<a href="Home.html">Beranda</a>
+			<a href="struktur.html">Struktur Organisasi</a>
+			<a href="form.html">Form</a>
+			<a id="menucadangan" href="sejarah.html">Sejarah</a>
+			<a id="menucadangan" href="motto.html">Motto</a>
+			<a id="menucadangan" href="visimisi.html">Visi dan Misi</a>
+			<div class="dropdown">
+				<a href="#" id="tentang">Tentang</a>
+				<div class="dropdown-child">
+					<a href="sejarah.html">Sejarah</a>
+					<a href="motto.html">Motto</a>
+					<a href="visimisi.html">Visi dan Misi</a>
+				</div>
+			</div>
+		</div>
+	</div> <br>
+	<form method="post" name="biodata">
+		<fieldset>
+			<legend><b>BIODATA DOSEN</b></legend>
+			<pre>
+NIP	         : <input type="text" placeholder="masukkan nip anda" name="nip">
+Nama	         : <input type="text" placeholder="masukkan nama anda" name="nama">
+Pangkat          : <input type="text" placeholder="masukkan pangkat/golongan anda" name="pangkat">
+Jabatan Akademik : <input type="text" placeholder="masukkan jabatan akademik anda" name="jabatan akademik">
+Fakultas         : <input type="text" placeholder="masukkan fakultas anda" name="fak">
+Tempat Lahir     : <input type="text" placeholder="masukkan tempat lahir anda" name="tempat lahir">
+Tanggal Lahir    : <input type="date" placeholder="mm/dd/yyyy" name="tanggal lahir">
+Jenis Kelamin    : <select name="jenis kelamin">
+					<option>Laki-Laki</option>
+					<option>Perempuan</option>
+				</select>
+Alamat           : <input type="text" placeholder="masukkan alamat anda" name="alamat">
+Agama	         : <select name="agama">
+					<option>Islam</option>
+					<option>Kristen</option>
+					<option>Katolik </option>
+					<option>Hindu</option>
+					<option>Budha</option>
+					<option>Konghucu</option>
+				</select>
+			</pre>
+			<button type="button" onclick="terimaInput()">Simpan</button> <br>
+		</fieldset>
+	</form>
+	<div class="footer">
+		<div id="copyright">
+			Copyright<i class="fa fa-copyright"></i> 2018 Universitas Jember
+		</div>
+		<div id="garisfooter"></div>
+		<div class="foot-kanan">
+			<div class="menufoot">
+				<div class="symbfoot"><i class="fa fa-location-arrow"></i></div>
+				<div class="submenufoot">Jalan Kalimantan no. 37, Kampus Tegalboto, Jember, Jawa Timur, 678121, Indonesia</div>
+			</div>
+			<div class="menufoot">
+				<div class="symbfoot"><i class="fa fa-clock-o"></i></div>
+				<div class="submenufoot">Senin-Kamis 07.00-16.00 | Jumat 06.30-16.30</div>
+			</div>
+			<div class="menufoot">
+				<div class="symbfoot"><i class="fa fa-envelope"></i></div>
+				<div class="submenufoot">humas@unej.ac.id</div>	
+			</div>
+			<div class="menufoot">
+				<div class="symbfoot"><i class="fa fa-mobile-phone"></i></div>
+				<div class="submenufoot">(0331) 330-224 | (0331) 334-270</div>	
+			</div>
+			<div class="menufoot">
+				<div class="symbfoot"><i class="fa fa-fax"></i></div>
+				<div class="submenufoot">(0331) 333-147</div>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>

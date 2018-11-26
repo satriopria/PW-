@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+    function aksi() {
+      if(document.getElementById("kotakprodifib").style.visibility == "hidden")
+        document.getElementById("kotakprodifib").style.visibility = "visible";
+      else
+        document.getElementById("kotakprodifib").style.visibility = "hidden";
+    }
+
+    function aksi2() {
+      if(document.getElementById("kotakprodifeb").style.visibility == "hidden")
+        document.getElementById("kotakprodifeb").style.visibility = "visible";
+      else
+        document.getElementById("kotakprodifeb").style.visibility = "hidden";
+    }
+
+    function aksi3() {
+      if(document.getElementById("kotakprodifh").style.visibility == "hidden")
+        document.getElementById("kotakprodifh").style.visibility = "visible";
+      document.getElementById("kotakprodifeb").style.visibility = "visible";
+      document.getElementById("kotakprodifib").style.visibility = "visible";
+      else
+        document.getElementById("kotakprodifh").style.visibility = "hidden";
+    }
+  </script>
+<style>
+body {
+    margin: 0;
+}
+
+</style>
+</head>
+<body>
+  <div id="kotakprodifib">
+    <h1 style="text-align: center;">Jurusan di FIB:</h1>
+    <br>
+    <h2 style="text-align: center;">Sastra Inggris</h2>
+    <h2 style="text-align: center;">Sastra Inggris</h2>
+    <h2 style="text-align: center;">Televisi dan Film</h2>
+  </div>
+
+  <div id="kotakprodifh">
+    <h1 style="text-align: center;">Jurusan di FH:</h1>
+    <br>
+    <h2 style="text-align: center;">Ilmu Hukum</h2>
+    <h2 style="text-align: center;">Pendidikan Khusus Advokat</h2>
+  </div>
+
+  <div id="kotakprodifeb">
+    <h1 style="text-align: center;">Jurusan di FEB:</h1>
+    <br>
+    <h2 style="text-align: center;">Administrasi Keuangan</h2>
+    <h2 style="text-align: center;">Ilmu Ekonomi</h2>
+    <h2 style="text-align: center;">Manajemen</h2>
+    <h2 style="text-align: center;">Akuntansi</h2>
+  </div>
+
+
+  <ul id="ul1">
+    <li><a href="#fib" onclick="aksi()">Fakultas Ilmu Budaya</a></li>
+    <li><a href="#feb" onclick="aksi2()">Fakultas Ekonomi dan Bisnis</a></li>
+    <li><a href="#fh" onclick="aksi3()">Fakultas Hukum</a></li>
+    <li><a href="#fkip">Fakultas Keguruan dan Ilmu Pendidikan</a></li>
+    <li><a href="#fkm">Fakultas Kesehatan Masyarakat</a></li>
+    <li><a href="#fisip">Fakultas Ilmu Sosial dan Ilmu Politik</a></li>
+    <li><a href="#fmipa">Fakultas Matematika dan Ilmu Pengetahuan Alam</a></li>
+    <li><a href="#faperta">Fakultas Pertanian</a></li>
+    <li><a href="#ft">Fakultas Teknik</a></li>
+    <li><a href="#ftp">Fakultas Teknologi Pertanian</a></li>
+    <li><a href="#fk">Fakultas Kedokteran</a></li>
+    <li><a href="#fkg">Fakultas Kedokteran Gigi</a></li>
+    <li><a href="#ilkom">Fakultas Ilmu Komputer</a></li>
+    <li><a href="#psik">Fakultas Ilmu Keperawatan</a></li>
+    <br>
+    <a href="home.html" style="color: blue;text-decoration-line: none;margin-left: 17px;">Kembali</a>
+  </ul>
+
+  <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    <h1 style="color: white">Universitas Jember</h1>
+    <h2 style="color: white">Fakultas di UNEJ</h2>
+  </div>
+
+</body>
+</html>
